@@ -9,6 +9,7 @@
   .welcome-menu {
     background: #FFF;
     padding: 50px;
+    position: relative;
 
     .logo {
       display: flex;
@@ -20,9 +21,10 @@
       }
     }
 
+
     .menu {
 
-
+      margin-bottom: 50px;
 
       .menu-title {
         color: #0971CE;
@@ -32,9 +34,70 @@
         padding-bottom: 15px;
         margin-bottom: 20px;
         text-transform: uppercase;
+      }
+
+      .menu-links {
+
+        li {
+          a {
+            font-size: 1.1rem;
+            color: #000;
+            font-weight: 600;
+            text-decoration: none;
+            margin-bottom: 1.4rem;
+            display: block;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+              color: red;
+            }
+          }
+        }
 
       }
     }
+
+
+
+    .social-icons {
+      display: flex;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #C2C8CC;
+        font-size: .9rem;
+        color: #FFF;
+        text-decoration: none;
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+        border-radius: 50%;
+      }
+    }
+
+    .location {
+      position: absolute;
+      bottom: 100px;
+
+      .address {
+        color: #7A8D99;
+        margin-bottom: 20px;
+      }
+
+      .contact-us {
+        a {
+          color: #0971CE;
+          font-size: 2rem;
+          font-weight: 700;
+          text-decoration: none;
+        }
+      }
+
+    }
+
+
 
   }
 
