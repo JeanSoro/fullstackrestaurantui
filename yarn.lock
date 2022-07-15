@@ -9156,8 +9156,8 @@ svelte-loader@^2.13.4:
     svelte-dev-helper "^1.1.9"
 
 svelte@^3.4.3:
-  version "3.20.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.20.1.tgz#8417fcd883a2f534b642a0737368272e651cf3ac"
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
 
 sver-compat@^1.5.0:
   version "1.5.0"
